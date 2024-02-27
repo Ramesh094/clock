@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1422493757035-1e5e03968f95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1408&q=80");
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden; /*for hiding the scroll bar web page*/
+}
+h2{
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:rgb(14, 2, 9);
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    height: 100px;
+    width:80px;
+    background: rgb(7, 152, 189);
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px hwb(19 25% 9% / 0.3);
+}
+.clock .text{
+    height:30px;
+    font-size:12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: blue;
+}
+.clock #ampm{
+    bottom:0;
+    position: absolute;
+    width:60px;
+    height: 30px;
+    font-size:20px;
+    background-color:blue;
+}
